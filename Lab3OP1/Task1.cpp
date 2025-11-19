@@ -3,13 +3,11 @@ using namespace std;
 
 int main() {
 
-
     unsigned short a;
     int b;
     float c;
     double d;
 
-    cout << "Created variables: unsigned short, int, float, double." << endl;
 
     unsigned short* pa;
     int* pb;
@@ -37,7 +35,7 @@ int main() {
     *pc = 84.353535f;
     *pd = -2.6e13;
 
-    cout << "Variables initialized using pointer dereferencing (*pointer)." << endl;
+    cout << "Variables initialized using pointer dereferencing." << endl;
 
 
     cout << "\n--- VARIABLE SIZES (bytes) ---\n";
@@ -56,16 +54,16 @@ int main() {
 
     cout << "\n--- Untyped pointer assignments ---\n";
     pv = pa;
-    cout << "pv = pa (void* now stores address of unsigned short*)" << endl;
+    cout << "pv = pa" << endl;
 
     pv = pb;
-    cout << "pv = pb (void* now stores address of int*)" << endl;
+    cout << "pv = pb" << endl;
 
     pv = pc;
-    cout << "pv = pc (void* now stores address of float*)" << endl;
+    cout << "pv = pc" << endl;
 
     pv = pd;
-    cout << "pv = pd (void* now stores address of double*)" << endl;
+    cout << "pv = pd" << endl;
 
     cout << "\n--- VALUES OF VARIABLES ---\n";
     cout << "a = " << a << endl;

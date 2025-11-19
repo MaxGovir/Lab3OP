@@ -38,9 +38,9 @@ int main() {
     cout << "c2 = '" << c2 << "'\n";
     cout << "c3 = '" << c3 << "'\n";
 
-    cout << "h1 = 0x02 -> as int: " << (int)h1 << " (non-printable)\n";
+    cout << "h1 = 0x02 -> as int: " << (int)h1 <<"\n";
     cout << "h2 = 0x56 -> '" << h2 << "'\n";
-    cout << "h3 = 0xB6 -> '" << h3 << "' (depends on encoding)\n";
+    cout << "h3 = 0xB6 -> '" << h3 << "'\n";
 
     return 0;
 }
